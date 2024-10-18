@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+body{
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.sign-up-form{
+  height: auto;
+  width: 340px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 45px 40px;
+  border-radius: 5px;
+}
+.text{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.email{
+  margin-bottom: 10px;
+}
+.password{
+  margin-bottom: 35px;
+}
+input{
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(29, 28, 28);
+  border-radius: 3px;
+}
+input::placeholder{
+  color: rgb(157, 148, 148);
+
+}
+input[type="submit"]{
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+input[type="submit"]:hover{
+  background-color: rgb(213, 38, 38);
+}
+.forget{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.remember{
+  color: rgb(118, 112, 112);
+  font-size: 14px;
+  display: flex;
+  justify-content: left;
+  position: relative;
+}
+.remember input[type="checkbox"]{
+  height: 18px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.help{
+  color: rgb(118, 112, 112);
+  font-size: 14px;
+}
+
+.new-member p{
+  color: rgb(118, 112, 112);
+  font-size: 14px;
+}
+.new-member a{
+  color: white;
+  text-decoration: none;
+}
+.new-member a:active{
+  color: red;
+}
+.privacy{
+  margin-top: 15px;
+}
+.privacy p{
+  color: rgb(118, 112, 112);
+  font-size: 12px;
+}
+.privacy a{
+  text-decoration: none;
+
+}
